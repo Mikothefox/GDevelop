@@ -37,6 +37,7 @@ import ResponsiveFlatButton from '../UI/ResponsiveFlatButton';
 import { EmptyPlaceholder } from '../UI/EmptyPlaceholder';
 import useAlertDialog from '../UI/Alert/useAlertDialog';
 import SearchBar from '../UI/SearchBar';
+import ResourceTypeSelectField from '../EventsFunctionsExtensionEditor/EventsFunctionConfigurationEditor/ResourceTypeSelectField';
 
 const gd: libGDevelop = global.gd;
 
@@ -677,6 +678,11 @@ export default function EventsBasedObjectPropertiesEditor({
                                             value="Color"
                                             label={t`Color (text)`}
                                           />
+                                          <SelectOption
+                                            key="property-type-resource"
+                                            value="Resource"
+                                            label={t`Resource (JavaScript only)`}
+                                          />
                                         </SelectField>
                                         {property.getType() === 'Number' && (
                                           <SelectField
@@ -813,6 +819,27 @@ export default function EventsBasedObjectPropertiesEditor({
                                               )
                                             )}
                                           </SelectField>
+                                        )}
+                                        {property.getType() === 'Resource' && (
+                                          <ResourceTypeSelectField
+                                            value={
+                                              property.getExtraInfo().size() > 0
+                                                ? property.getExtraInfo().at(0)
+                                                : ''
+                                            }
+                                            onChange={(e, i, value) => {
+                                              const vectorString = new gd.VectorString();
+                                              vectorString.push_back(value);
+                                              property.setExtraInfo(
+                                                vectorString
+                                              );
+                                              vectorString.delete();
+                                              forceUpdate();
+                                              onPropertiesUpdated &&
+                                                onPropertiesUpdated();
+                                            }}
+                                            fullWidth
+                                          />
                                         )}
                                       </ResponsiveLineStackLayout>
                                       {property.getType() === 'Choice' && (

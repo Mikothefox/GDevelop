@@ -38,6 +38,7 @@ import ResponsiveFlatButton from '../UI/ResponsiveFlatButton';
 import { EmptyPlaceholder } from '../UI/EmptyPlaceholder';
 import useAlertDialog from '../UI/Alert/useAlertDialog';
 import SearchBar from '../UI/SearchBar';
+import ResourceTypeSelectField from '../EventsFunctionsExtensionEditor/EventsFunctionConfigurationEditor/ResourceTypeSelectField';
 
 const gd: libGDevelop = global.gd;
 
@@ -675,6 +676,11 @@ export default function EventsBasedBehaviorPropertiesEditor({
                                             value="Color"
                                             label={t`Color (text)`}
                                           />
+                                          <SelectOption
+                                            key="property-type-resource"
+                                            value="Resource"
+                                            label={t`Resource (JavaScript only)`}
+                                          />
                                           {!isSceneProperties && (
                                             <SelectOption
                                               key="property-type-behavior"
@@ -826,6 +832,27 @@ export default function EventsBasedBehaviorPropertiesEditor({
                                               onPropertiesUpdated &&
                                                 onPropertiesUpdated();
                                             }}
+                                          />
+                                        )}
+                                        {property.getType() === 'Resource' && (
+                                          <ResourceTypeSelectField
+                                            value={
+                                              property.getExtraInfo().size() > 0
+                                                ? property.getExtraInfo().at(0)
+                                                : ''
+                                            }
+                                            onChange={(e, i, value) => {
+                                              const vectorString = new gd.VectorString();
+                                              vectorString.push_back(value);
+                                              property.setExtraInfo(
+                                                vectorString
+                                              );
+                                              vectorString.delete();
+                                              forceUpdate();
+                                              onPropertiesUpdated &&
+                                                onPropertiesUpdated();
+                                            }}
+                                            fullWidth
                                           />
                                         )}
                                         {property.getType() === 'Choice' && (
