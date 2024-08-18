@@ -1,0 +1,740 @@
+{
+  "theme": {
+    "primary": {
+      "color": {
+        "value": "#eda52d"
+      },
+      "light": {
+        "value": "#eda52d"
+      },
+      "text-contrast-color": {
+        "value": "#eda52d"
+      }
+    },
+    "secondary": {
+      "color": {
+        "value": "#eda52d"
+      },
+      "text-contrast-color": {
+        "value": "#1#eda52d"
+      }
+    },
+    "success": {
+      "dark": {
+        "value": "#eda52d",
+        "comment": "Palette/Green/50"
+      },
+      "color": {
+        "value": "##eda52d",
+        "comment": "Palette/Green/40"
+      },
+      "light": {
+        "value": "#eda52d",
+        "comment": "Palette/Green/30"
+      }
+    },
+    "warning": {
+      "dark": {
+        "value": "#eda52d",
+        "comment": "Palette/Yellow/50"
+      },
+      "color": {
+        "value": "#eda52d",
+        "comment": "Palette/Yellow/40"
+      },
+      "light": {
+        "value": "#eda52d",
+        "comment": "Palette/Yellow/30"
+      }
+    },
+    "error": {
+      "dark": {
+        "value": "##eda52d",
+        "comment": "Palette/Red/50"
+      },
+      "color": {
+        "value": "##eda52d",
+        "comment": "Palette/Red/40"
+      },
+      "light": {
+        "value": "#eda52d",
+        "comment": "Palette/Red/30"
+      }
+    },
+    "surface": {
+      "titlebar": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "toolbar": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "window": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "canvas": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "alternate-canvas": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "alternate-canvas-light": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "dialog": {
+      "background-color": {
+        "value": "#eda52d"
+      },
+      "separator": {
+        "color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/70"
+        }
+      }
+    },
+    "swipeable-drawer": {
+      "top-bar": {
+        "pill-color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "icon-button": {
+      "color": {
+        "value": "#eda52d"
+      },
+      "selected": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "link": {
+      "color": {
+        "value": "#eda52d"
+      },
+      "hover-color": {
+        "value": "#eda52d"
+      }
+    },
+    "switch": {
+      "default": {
+        "thumb-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/10"
+        },
+        "track-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/60"
+        }
+      },
+      "toggled": {
+        "thumb-color": {
+          "value": "#eda52d"
+        },
+        "track-color": {
+          "value": "#eda52d"
+        }
+      },
+      "disabled": {
+        "thumb-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/70"
+        },
+        "track-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/80"
+        }
+      }
+    },
+    "search-bar": {
+      "default": {
+        "background-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/70"
+        },
+        "text-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/30"
+        }
+      },
+      "hovered": {
+        "border-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/50"
+        }
+      },
+      "focused": {
+        "text-color": {
+          "value": "##eda52d",
+          "comment": "Palette/Grey/00"
+        },
+        "border-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Purple/00"
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/80"
+        },
+        "text-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/70"
+        }
+      }
+    },
+    "selection": {
+      "background-color": {
+        "value": "#eda52d"
+      },
+      "color": {
+        "value": "#eda52d"
+      }
+    },
+    "text": {
+      "default": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "secondary": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "disabled": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "contrast": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "highlighted": {
+        "background-color": {
+          "value": "rgba(255, 255, 255, 0.3)"
+        }
+      }
+    },
+    "message": {
+      "warning": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "error": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "valid": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "empty-shadow": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "hot": {
+        "background-color": {
+          "value": "#eda52d"
+        },
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "toolbar-separator": {
+      "color": {
+        "value": "#eda52d"
+      }
+    },
+    "closable-tabs": {
+      "default": {
+        "background-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/80"
+        },
+        "color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/30"
+        }
+      },
+      "selected": {
+        "background-color": {
+          "value": "#eda52d"
+        },
+        "color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/00"
+        },
+        "borderColor": {
+          "value": "{theme.primary.color.value}"
+        }
+      }
+    },
+    "list-item": {
+      "hover": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "group": {
+        "text": {
+          "color": {
+            "value": "#eda52d"
+          }
+        },
+        "text-deprecated": {
+          "color": {
+            "value": "#eda52d"
+          }
+        }
+      },
+      "separator": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "warning": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "error": {
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "right-icon": {
+      "color": {
+        "value": "#eda52d"
+      }
+    },
+    "palette": {
+      "black": {
+        "value": "#eda52d"
+      },
+      "white": {
+        "value": "#eda52d"
+      }
+    },
+    "image-preview": {
+      "background-filter": {
+        "value": "invert(1) invert(28%) sepia(19%) saturate(770%) hue-rotate(183deg) brightness(64%) contrast(87%)"
+      },
+      "border-color": {
+        "value": "#eda52d"
+      },
+      "frame-border-color": {
+        "value": "#eda52d"
+      }
+    },
+    "drop-indicator": {
+      "can-drop": {
+        "color": {
+          "value": "{theme.primary.color.value}"
+        }
+      },
+      "cannot-drop": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "{theme.surface.canvas.background-color.value}"
+        }
+      }
+    },
+    "home": {
+      "separator": {
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "linear-progress": {
+      "color": {
+        "complete": {
+          "value": "#eda52d",
+          "comment": "Palette/Green/50"
+        },
+        "incomplete": {
+          "value": "#eda52d",
+          "comment": "Palette/Yellow/50"
+        }
+      }
+    },
+    "example": {
+      "difficulty": {
+        "color": {
+          "simple": {
+            "value": "#eda52d"
+          },
+          "advanced": {
+            "value": "#eda52d"
+          },
+          "expert": {
+            "value": "#eda52d"
+          }
+        }
+      }
+    },
+    "tabs": {
+      "text-color": {
+        "value": "#eda52d",
+        "comment": "Palette/Grey/50"
+      },
+      "background-color": {
+        "value": "#eda52d"
+      },
+      "indicator-color": {
+        "value": "#eda52d",
+        "comment": "Palette/Grey/40"
+      },
+      "separator-color": {
+        "value": "#eda52d",
+        "comment": "Palette/Grey/60"
+      },
+      "selected": {
+        "text-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/00"
+        },
+        "background-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/70"
+        }
+      }
+    },
+    "snackbar": {
+      "border": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "background": {
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "notification": {
+      "badge-color": {
+        "value": "#eda52d"
+      }
+    },
+    "text-field": {
+      "active": {
+        "error": {
+          "value": "#eda52d",
+          "comment": "Palette/Red/20"
+        },
+        "border-color": {
+          "value": "#eda52d"
+        },
+        "caret-color": {
+          "value": "#eda52d"
+        }
+      },
+      "disabled": {
+        "color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/50"
+        }
+      },
+      "placeholder": {
+        "color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/40"
+        }
+      },
+      "default": {
+        "background-color": {
+          "value": "rgba(255, 255, 255, 0.09)"
+        },
+        "error": {
+          "value": "#eda52d",
+          "comment": "Palette/Red/40"
+        }
+      },
+      "hover": {
+        "border-color": {
+          "value": "#eda52d",
+          "comment": "Palette/Grey/50"
+        }
+      },
+      "endAdornmentIcon": {
+        "background-color": {
+          "value": "rgba(221, 209, 255, 0.16)"
+        }
+      }
+    }
+  },
+  "input": {
+    "border-bottom": {
+      "color": {
+        "value": "#eda52d"
+      }
+    }
+  },
+  "event-sheet": {
+    "event-tree": {
+      "background-color": {
+        "value": "#eda52d"
+      }
+    },
+    "rst": {
+      "move-handle": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "move-handle-hover": {
+        "background-color": {
+          "value": "{theme.primary.color.value}"
+        }
+      },
+      "line": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "row-contents": {
+        "background-color": {
+          "value": "#eda52d"
+        },
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "selectable": {
+      "background-color": {
+        "value": "rgba(0, 0, 0, 0.2)"
+      },
+      "border": {
+        "value": "1px #191724 solid"
+      },
+      "selected-border": {
+        "value": "1px {theme.primary.color.value} solid"
+      }
+    },
+    "conditions": {
+      "background-color": {
+        "value": "#eda52d"
+      },
+      "border-color": {
+        "value": "#eda52d"
+      },
+      "border": {
+        "value": "1px solid {event-sheet.conditions.border-color.value}"
+      },
+      "color": {
+        "value": "#eda52d"
+      },
+      "border-right-color": {
+        "value": "#eda52d"
+      },
+      "border-bottom-color": {
+        "value": "#eda52d"
+      }
+    },
+    "events": {
+      "highlighted": {
+        "background-color": {
+          "value": "#eda52d"
+        },
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "actions": {
+      "background-color": {
+        "value": "#eda52d"
+      },
+      "color": {
+        "value": "#eda52d"
+      }
+    },
+    "sub-instructions": {
+      "border-color": {
+        "value": "#eda52d"
+      },
+      "border": {
+        "value": "1px solid {event-sheet.sub-instructions.border-color.value}"
+      }
+    },
+    "warning-instruction": {
+      "background-color": {
+        "value": "rgba(255, 188, 87, 0.125)",
+        "comment": "Palette/Yellow/40 and alpha"
+      }
+    },
+    "instruction-parameter": {
+      "base": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "number": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "object": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "behavior": {
+        "color": {
+          "value": "rgb(119, 119, 119)"
+        }
+      },
+      "operator": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "var": {
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "error": {
+        "color": {
+          "value": "#eda52d"
+        },
+        "background-color": {
+          "value": "rgba(243, 0, 12, 0.15)"
+        }
+      },
+      "warning": {
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "drop-indicator": {
+      "can-drop": {
+        "border-top-color": {
+          "value": "#eda52d"
+        }
+      },
+      "cannot-drop": {
+        "border-top-color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "link": {
+      "container": {
+        "background-color": {
+          "value": "#eda52d"
+        },
+        "color": {
+          "value": "#eda52d"
+        }
+      },
+      "selectable-link": {
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    }
+  },
+  "markdown": {
+    "blockquote": {
+      "border-left": {
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    },
+    "link": {
+      "color": {
+        "value": "#eda52d"
+      }
+    }
+  },
+  "mosaic": {
+    "title": {
+      "color": {
+        "value": "#eda52d"
+      }
+    },
+    "layout": {
+      "border-color": {
+        "value": "#eda52d"
+      },
+      "background-color": {
+        "value": "#eda52d"
+      }
+    },
+    "toolbar": {
+      "background-color": {
+        "value": "#eda52d"
+      },
+      "border-color-hover": {
+        "value": "{theme.primary.color.value}"
+      }
+    }
+  },
+  "table": {
+    "border": {
+      "color": {
+        "value": "#eda52d"
+      }
+    },
+    "text": {
+      "color": {
+        "value": "#eda52d"
+      },
+      "color-header": {
+        "value": "#eda52d"
+      }
+    },
+    "row": {
+      "odd": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "even": {
+        "background-color": {
+          "value": "#eda52d"
+        }
+      },
+      "selected": {
+        "background-color": {
+          "value": "{theme.primary.color.value}"
+        },
+        "color": {
+          "value": "#eda52d"
+        }
+      }
+    }
+  }
+}
